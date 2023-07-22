@@ -1,0 +1,215 @@
+{
+  "Niveles": [
+    {
+      "Nombre": "Nivel Principiante",
+      "Temas": [
+        {
+          "Tema": "Conceptos básicos de JavaScript",
+          "Descripcion": "Aprende los fundamentos de JavaScript, como variables, funciones, objetos y bucles, para desarrollar una base sólida.",
+          "Contenido": [
+            "Variables y tipos de datos",
+            "Funciones y ámbito (scope)",
+            "Objetos y arrays",
+            "Bucles (for, while)",
+            "Operadores y expresiones"
+          ]
+        },
+        {
+          "Tema": "HTML y CSS",
+          "Descripcion": "Comprende HTML para la estructura y CSS para el estilo, lo que te permitirá crear interfaces web atractivas y funcionales.",
+          "Contenido": [
+            "Estructura básica de HTML",
+            "Etiquetas y atributos comunes",
+            "Selectores de CSS",
+            "Estilos de caja (box model)",
+            "Flexbox y CSS Grid"
+          ]
+        },
+        {
+          "Tema": "Introducción a React",
+          "Descripcion": "Explora los conceptos fundamentales de React, como componentes, JSX, props, state y el ciclo de vida, para empezar a construir aplicaciones interactivas.",
+          "Contenido": [
+            "Componentes funcionales y de clase",
+            "JSX y su sintaxis",
+            "Props y PropTypes",
+            "State y setState",
+            "Ciclo de vida de los componentes"
+          ]
+        },
+        {
+          "Tema": "Creación de componentes",
+          "Descripcion": "Aprende a crear componentes reutilizables y anidados para construir interfaces más complejas y mantenibles.",
+          "Contenido": [
+            "Composición de componentes",
+            "Componentes controlados y no controlados",
+            "Comunicación entre componentes",
+            "Uso de fragmentos (Fragments)"
+          ]
+        },
+        {
+          "Tema": "Gestión de estado",
+          "Descripcion": "Comprende cómo manejar el estado de tus componentes de manera eficiente, utilizando setState en componentes de clase y los hooks de React en componentes funcionales.",
+          "Contenido": [
+            "setState y su funcionamiento",
+            "useState, useEffect y otros hooks",
+            "Uso del patrón de elevación de estado",
+            "Context API y useContext hook"
+          ]
+        },
+        {
+          "Tema": "Eventos",
+          "Descripcion": "Aprende a manejar eventos de usuario, como clics y cambios de formulario, y actualiza el estado en consecuencia para crear interacciones en la aplicación.",
+          "Contenido": [
+            "Manejo de eventos en React",
+            "Eventos de formulario",
+            "Eventos sintéticos en React",
+            "Delegación de eventos"
+          ]
+        }
+      ]
+    },
+    {
+      "Nombre": "Nivel Intermedio",
+      "Temas": [
+        {
+          "Tema": "React Router",
+          "Descripcion": "Explora cómo implementar el enrutamiento en una aplicación de React utilizando React Router, lo que te permitirá navegar entre diferentes vistas y páginas.",
+          "Contenido": [
+            "Configuración y uso de React Router",
+            "Creación de rutas y enlaces",
+            "Rutas con parámetros y rutas anidadas",
+            "Uso de rutas protegidas (autenticación)",
+            "Manejo de rutas 404"
+          ]
+        },
+        {
+          "Tema": "Gestión del estado avanzada",
+          "Descripcion": "Profundiza en las técnicas avanzadas de gestión del estado, incluida la elevación de estado y el uso de bibliotecas como Redux para manejar el estado global.",
+          "Contenido": [
+            "Introducción a Redux y su flujo de datos",
+            "Actions, reducers y store",
+            "Middleware en Redux",
+            "Uso de Redux en aplicaciones React",
+            "Elevación de estado (lifting state up)"
+          ]
+        },
+        {
+          "Tema": "Peticiones HTTP",
+          "Descripcion": "Aprende a realizar peticiones HTTP a APIs y manejar las respuestas en tu aplicación de React utilizando bibliotecas como axios o fetch.",
+          "Contenido": [
+            "Peticiones GET, POST, PUT y DELETE",
+            "Interacción con APIs RESTful",
+            "Manejo de respuestas y errores",
+            "Autenticación con tokens JWT",
+            "Uso de interceptores en axios"
+          ]
+        },
+        {
+          "Tema": "Optimización de rendimiento",
+          "Descripcion": "Comprende cómo optimizar el rendimiento de tus componentes, evitando renderizados innecesarios y utilizando técnicas de memoización.",
+          "Contenido": [
+            "Evitar renderizados innecesarios",
+            "Uso de shouldComponentUpdate",
+            "Memoización con React.memo y useMemo",
+            "Lazy loading y Suspense",
+            "Optimización con React DevTools"
+          ]
+        },
+        {
+          "Tema": "Estilizado en React",
+          "Descripcion": "Explora diferentes enfoques para estilizar tus componentes, como CSS en módulos, Styled Components, Emotion, etc.",
+          "Contenido": [
+            "CSS en módulos (CSS Modules)",
+            "Styled Components y su sintaxis",
+            "Emotion y creación de estilos dinámicos",
+            "Tema y estilos globales",
+            "Optimización de estilos"
+          ]
+        }
+      ]
+    },
+    {
+      "Nombre": "Nivel Avanzado",
+      "Temas": [
+        {
+          "Tema": "Hooks personalizados",
+          "Descripcion": "Aprende cómo crear tus propios hooks personalizados para reutilizar la lógica en varios componentes.",
+          "Contenido": [
+            "Introducción a los hooks personalizados",
+            "Creación de hooks personalizados",
+            "Uso de hooks personalizados en componentes",
+            "Uso avanzado de useState y useEffect"
+          ]
+        },
+        {
+          "Tema": "Renderizado en el servidor (SSR) y Renderizado en el cliente (CSR)",
+          "Descripcion": "Comprende las diferencias entre SSR y CSR y cómo implementar SSR en una aplicación de React utilizando bibliotecas como Next.js.",
+          "Contenido": [
+            "Conceptos de SSR y CSR",
+            "Implementación de SSR con Next.js",
+            "Ventajas y desventajas del SSR",
+            "Optimización de aplicaciones SSR"
+          ]
+        },
+        {
+          "Tema": "Testing",
+          "Descripcion": "Aprende a escribir pruebas unitarias y de integración para tus componentes utilizando herramientas como Jest y Testing Library.",
+          "Contenido": [
+            "Introducción a las pruebas en React",
+            "Configuración de entornos de pruebas",
+            "Pruebas de componentes",
+            "Pruebas de acciones y reducers en Redux",
+            "Pruebas asíncronas con jest.fn() y mockeo"
+          ]
+        },
+        {
+          "Tema": "Animaciones",
+          "Descripcion": "Explora diferentes técnicas para agregar animaciones a tus componentes y páginas en React, mejorando la experiencia del usuario.",
+          "Contenido": [
+            "Animaciones con CSS",
+            "Transiciones y transformaciones",
+            "Animaciones con bibliotecas como react-spring",
+            "Animaciones basadas en eventos",
+            "Optimización de animaciones"
+          ]
+        },
+        {
+          "Tema": "Accesibilidad (a11y)",
+          "Descripcion": "Aprende a crear aplicaciones accesibles para que todos los usuarios puedan interactuar con ellas de manera efectiva.",
+          "Contenido": [
+            "Conceptos de accesibilidad web",
+            "Uso de atributos y etiquetas accesibles",
+            "Navegación y teclado para usuarios con discapacidad",
+            "Verificación y pruebas de accesibilidad",
+            "Herramientas para evaluar la accesibilidad"
+          ]
+        },
+        {
+          "Tema": "Patrones de diseño y buenas prácticas",
+          "Descripcion": "Sumérgete en patrones de diseño comunes y buenas prácticas para construir aplicaciones escalables, mantenibles y de alta calidad.",
+          "Contenido": [
+            "Patrón Container-Component",
+            "Comunicación entre componentes",
+            "Manejo de errores y excepciones",
+            "Separación de responsabilidades (Single Responsibility Principle)",
+            "Mantenibilidad y legibilidad de código"
+          ]
+        }
+      ]
+    },
+    {
+      "Nombre": "Proyecto Final",
+      "Descripcion": "Construir una aplicación de React desde cero, aplicando todos los conceptos aprendidos en los niveles anteriores.",
+      "Contenido": [
+        "Diseño de la aplicación y planificación",
+        "Implementación de componentes y rutas",
+        "Gestión de estado global (si es necesario)",
+        "Integración con APIs y manejo de datos",
+        "Estilizado y diseño de la interfaz",
+        "Optimización y pruebas de rendimiento",
+        "Asegurar la accesibilidad",
+        "Despliegue de la aplicación en producción"
+      ]
+    }
+  ]
+}

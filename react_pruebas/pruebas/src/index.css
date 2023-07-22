@@ -1,0 +1,191 @@
+/* Estilos generales para la página */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Usamos min-height en lugar de height para asegurar que la página se centre incluso con poco contenido */
+}
+
+.container {
+  width: 100%;
+  max-width: 400px; /* Ajusta este valor según tus preferencias */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centra el contenido horizontalmente */
+}
+
+/* Estilos para el desplegable */
+select,
+input,
+button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Estilos para el título del formulario */
+h2 {
+  margin-bottom: 20px;
+}
+
+/* Estilos para el botón del formulario */
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s; /* Agregamos una transición suave */
+}
+
+button:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px) scale(1.05); /* Efecto 3D al hacer hover */
+}
+
+button:active {
+  background-color: #003d80;
+}
+
+#btnContador{
+  display: flex;
+}
+
+
+/* Estilos para el componente de Contador */
+#counter {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centra el contenido horizontalmente */
+}
+
+/* Estilos para pantallas pequeñas */
+@media screen and (max-width: 600px) {
+  .container {
+    max-width: 90%; /* Reducimos el ancho máximo para pantallas pequeñas */
+  }
+
+  button {
+    font-size: 14px; /* Reducimos el tamaño del botón en pantallas pequeñas */
+  }
+}
+
+/* Contador.css */
+.contador-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.botones-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.boton-incrementar,
+.boton-decrementar,
+.boton-reset {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Agrega una transición de 0.3 segundos al color de fondo */
+}
+
+.boton-incrementar {
+  background-color: green;
+  margin-right: 10px;
+}
+
+.boton-decrementar {
+  background-color: red;
+}
+
+.boton-reset {
+  background-color: blue;
+  color: white;
+}
+
+.boton-incrementar:hover,
+.boton-decrementar:hover,
+.boton-reset:hover {
+  background-color: rgb(39, 39, 39); /* Cambia el color de fondo a amarillo en el hover */
+}
+
+#completada{
+  background-color: green;
+}
+#completar{
+  background-color: red;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+#btnAñadirTarea{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  margin-bottom: 20px;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+#btnAñadirTarea:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px) scale(1.05);
+  cursor: pointer;
+}
+
+#frmAñadirTarea{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
